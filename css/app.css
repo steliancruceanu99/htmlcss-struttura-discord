@@ -71,6 +71,32 @@ body{
     background-color: darkgoldenrod;
 }
 
+/* MAIN */
+
+.bg-blue{
+    background-color: blue;
+}
+
+.pink-container{
+    background-color: pink;
+    height: 300px;
+    width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* DEBUG RULES */
 .debug .container{
