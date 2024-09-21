@@ -12,9 +12,8 @@ ol{
 .row{
     display: flex;
     flex-wrap: wrap;
+    align-content: center;
 }    
-   
-
 
 body{
     background-color:#efefef;
@@ -36,6 +35,9 @@ body{
 .col-50{
     width: 50%;
 }
+.col-40{
+    width: 40%;
+}
 .col-60{
     width: 60%;
 }
@@ -48,69 +50,74 @@ body{
 .p-10{
     padding: 40px 10px;
 }
-
-.al-self{
-    align-self: self-start;
+.p-35{
+    padding: 35px;
 }
-
+.col-reverse{
+    flex-direction: row-reverse;
+}
 /* LAYOUT */
-.container{
+.w-900{
     max-width: 900px;
     margin: 0 auto;
 }
-
-
 /* HEADER */
 .navbar{
     background-color:#add8e6 ;
     padding: 20px;
 }
 
-.container{
-    display: flex;
-    background-color: darkgoldenrod;
+/* MAIN */
+
+.violet-container{
+    background-color: rgb(203, 103, 233);
+    height: 350px;
+    width: 700px;
 }
 
-/* MAIN */
+.dash-cont{
+    height: 350px;
+    width: 900px;
+}
+
+.container{
+    display: flex;
+}
+
+/* BACKROUND COLORS */
 
 .bg-blue{
     background-color: blue;
 }
-
-.pink-container{
+.bg-pink{
     background-color: pink;
-    height: 300px;
-    width: 400px;
 }
 
+.bg-yellow{
+    background-color: darkgoldenrod;
+}
+.bg-white{
+    background-color: white;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.bg-black{
+    background-color: black;
+}
+.bg-green{
+    background-color: green;
+}
 /* DEBUG RULES */
 .debug .container{
     border: 2px dashed black;    
 }
 .debug .row{
-    border:2px solid red;
+    border:2px dashed black;
     padding: 16px;
 }
-.debug .row{
-    border:2px solid blue ;
-    padding: 7px;
-}
 
+.p-35 .row{
+    border: 2px dashed black;
+}
 
 
 
